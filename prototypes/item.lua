@@ -27,7 +27,7 @@ data:extend({
         type = "item",
         name = "depleted-mox-fuel-cell",
         subgroup = "uranium-prefluids",
-        icon = "__Uranium-fuel-repro__/graphics/icons/dep-mox-fuel-cell.png",
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/dep-mox-fuel-cell.png",
         icon_size = 32,
         stack_size = 50,
         flags = {"goes-to-main-inventory"}, 
