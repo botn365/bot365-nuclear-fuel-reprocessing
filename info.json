@@ -5,7 +5,7 @@
     "title": "bots nuclear fuel reprocessing",
     "author": "bot_365",
     "contact": "",
-    "homepage": "",
+    "homepage": "https://mods.factorio.com/mod/bot365-nuclear-fuel-reprocessing",
     "factorio_version": "0.16",
     "dependencies": [
 	"base >= 0.15",
