@@ -134,7 +134,7 @@ data:extend({
         },
         {
             type="unlock-recipe",
-            recipe = "uranium-hexa-floride-syntesis"
+            recipe = "uranium-tetra-floride-syntesis"
         }
     },
     unit = 

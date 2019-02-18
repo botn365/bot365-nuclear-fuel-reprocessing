@@ -586,7 +586,7 @@ data:extend({
 	},
 	{
 		type="recipe",
-		name="uranium-hexa-floride-syntesis",
+		name="uranium-tetra-floride-syntesis",
 		energy_required=20,
 		category= "chemistry",
 		enabled="false",
