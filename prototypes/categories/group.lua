@@ -5,7 +5,7 @@ data:extend(
 		name = "uranium",
 		order = "f",
 		inventory_order = "f",
-		icon = "__Uranium-fuel-repro__/graphics/icons/orbital.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/orbital.png",
 		icon_size = 32
 	}
 })
