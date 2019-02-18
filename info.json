@@ -1,0 +1,15 @@
+
+{
+    "name": "Uranium-fuel-repro",
+    "version": "0.1.0",
+    "title": "Uranium repro",
+    "author": "bot_365",
+    "contact": "bot_365",
+    "homepage": "",
+    "factorio_version": "0.16",
+    "dependencies": [
+	"base >= 0.15",
+	"angelspetrochem >= 0.7.8"
+],
+    "description": "ads a more realistic way of reprocesing nuclear watse"
+}
