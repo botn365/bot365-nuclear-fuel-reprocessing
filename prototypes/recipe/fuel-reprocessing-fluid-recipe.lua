@@ -87,7 +87,7 @@ data:extend({
 		ingredients =
 		{
 			{type="fluid", name="gas-hydrogen", amount=150},		
-			{type="fluid", name="gas-nitrogen-monoxide", amount=40},
+			{type="fluid", name="gas-nitrogen-monoxide", amount=50},
 			{type="item", name="catalyst-metal-yellow",amount=1}		
 		},
 		results=
@@ -165,7 +165,7 @@ data:extend({
 		energy_required = 3,
 		ingredients = {
 			{type="fluid", name="Phosphoryl-chloride", amount=100},
-			{type="fluid", name="butanol", amount=200}
+			{type="fluid", name="butanol", amount=300}
 		},
 		results={
 			{type= "fluid", name="Tributyl-phosphate", amount=100},
@@ -238,7 +238,7 @@ data:extend({
 		type = "recipe",
 		name = "uranyl-nitrate-dissolution",
 		category = "chemistry",
-		energy_required = 10,
+		energy_required = 15,
 		enabled = "false",
 		ingredients =
 		{
@@ -278,7 +278,7 @@ data:extend({
 		type = "recipe",
 		name = "uranyl-nitrate-recovery",
 		category = "chemistry",
-		energy_required = 3,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -319,7 +319,7 @@ data:extend({
 		type = "recipe",
 		name = "nitric-acid-recovery",
 		category = "chemistry",
-		energy_required = 3,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -329,7 +329,6 @@ data:extend({
 		results=
 		{
 			{type="fluid", name="recovered-nitric-acid", amount=200},
-			{type="fluid", name="waste", amount=40}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/recd-hno3.png",
 		icon_size = 32,
@@ -340,7 +339,7 @@ data:extend({
 		type = "recipe",
 		name = "nitric-acid-concentration",
 		category = "chemistry",
-		energy_required = 3,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -379,7 +378,7 @@ data:extend({
 		type = "recipe",
 		name = "depleted-fuel-melting",
 		category = "chemistry",
-		energy_required = 80,
+		energy_required = 150,
 		enabled = "false",
 		ingredients =
 		{
@@ -399,7 +398,7 @@ data:extend({
 		type = "recipe",
 		name = "depledet-mox-fuel-melting",
 		category = "chemistry",
-		energy_required = 100,
+		energy_required = 150,
 		enabled = "false",
 		ingredients =
 		{
@@ -419,7 +418,7 @@ data:extend({
 		type = "recipe",
 		name = "fps-extraction",
 		category = "chemistry",
-		energy_required = 4,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -440,7 +439,7 @@ data:extend({
 		type = "recipe",
 		name = "u-pu-patritioning",
 		category = "chemistry",
-		energy_required = 4,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -461,7 +460,7 @@ data:extend({
 		type = "recipe",
 		name = "u-scrubbing",
 		category = "chemistry",
-		energy_required = 4,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -482,7 +481,7 @@ data:extend({
 		type = "recipe",
 		name = "u-extraction",
 		category = "chemistry",
-		energy_required = 4,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -503,7 +502,7 @@ data:extend({
 		type = "recipe",
 		name = "pu-oxidation",
 		category = "chemistry",
-		energy_required = 4,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -523,7 +522,7 @@ data:extend({
 		type = "recipe",
 		name = "pu-scrubbing",
 		category = "chemistry",
-		energy_required = 4,
+		energy_required = 4.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -544,7 +543,7 @@ data:extend({
 		type = "recipe",
 		name = "u-recovery",
 		category = "chemistry",
-		energy_required = 100,
+		energy_required = 150,
 		enabled = "false",
 		ingredients =
 		{
@@ -564,7 +563,7 @@ data:extend({
 		type = "recipe",
 		name = "pu-recovery",
 		category = "chemistry",
-		energy_required = 100,
+		energy_required = 150,
 		enabled = "false",
 		ingredients =
 		{

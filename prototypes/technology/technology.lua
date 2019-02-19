@@ -14,7 +14,7 @@ data:extend({
         {
         {
             type="unlock-recipe",
-            recipe = "hydrogen-synthesis"
+            recipe = "hydrogen-methane-electrolisis"
         },
         {
             type="unlock-recipe",
@@ -78,10 +78,6 @@ data:extend({
         },
         {
             type="unlock-recipe",
-            recipe = "waste-vitrification"
-        },
-        {
-            type="unlock-recipe",
             recipe = "depleted-fuel-melting"
         },
         {
@@ -135,6 +131,14 @@ data:extend({
         {
             type="unlock-recipe",
             recipe = "uranium-tetra-floride-syntesis"
+        },
+        {
+            type="unlock-recipe",
+            recipe = "hydrogen-ethane-electrolisis"
+        },
+        {
+            type="unlock-recipe",
+            recipe = "hydrogen-butane-electrolisis"
         }
     },
     unit = 
