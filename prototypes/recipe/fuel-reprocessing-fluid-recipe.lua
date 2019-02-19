@@ -150,7 +150,7 @@ data:extend({
 		results=
 		{
 			{type="fluid", name="butanol", amount=50},
-			{type="fluid", name="gas-residual", amount=10},
+			{type="fluid", name="gas-residual", amount=20},
 			{type="item", name="catalyst-metal-carrier", amount=1}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/butanol.png",
