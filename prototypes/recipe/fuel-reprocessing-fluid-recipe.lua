@@ -226,7 +226,7 @@ data:extend({
 		ingredients =
 		{
 			{type="fluid", name="hydroxylamine", amount=250},		
-			{type="fluid", name="uranyl-nitrate", amount=100}		
+			{type="fluid", name="uranyl-nitrate", amount=200}		
 		},
 		results=
 		{
