@@ -87,7 +87,7 @@ data:extend({
 		ingredients =
 		{
 			{type="fluid", name="gas-hydrogen", amount=150},		
-			{type="fluid", name="gas-nitrogen-monoxide", amount=50},
+			{type="fluid", name="gas-nitrogen-monoxide", amount=40},
 			{type="item", name="catalyst-metal-yellow",amount=1}		
 		},
 		results=
