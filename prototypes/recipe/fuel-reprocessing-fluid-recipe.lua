@@ -2,18 +2,55 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "hydrogen-methane-synthesis",
+		name = "hydrogen-methane-electrolisis",
 		category = "petrochem-electrolyser",
 		energy_required = 1,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="petroleum-gas", amount=100},
-			{type="fluid", name="water-purified", amount=100}
+			{type="fluid", name="gas-methane", amount=100},
 		},
 		results=
 		{
 			{type="fluid", name="gas-hydrogen", amount=600}
+		},
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
+		icon_size = 32,
+		subgroup = "uranium-fuel-reprocessing-fluids",
+		order = "bb"
+	},
+	{
+		type = "recipe",
+		name = "hydrogen-ethane-electrolisis",
+		category = "petrochem-electrolyser",
+		energy_required = 1,
+		enabled = "false",
+		ingredients =
+		{
+			{type="fluid", name="gas-ethane", amount=100},
+		},
+		results=
+		{
+			{type="fluid", name="gas-hydrogen", amount=400}
+		},
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
+		icon_size = 32,
+		subgroup = "uranium-fuel-reprocessing-fluids",
+		order = "bb"
+	},
+	{
+		type = "recipe",
+		name = "hydrogen-butane-electrolisis",
+		category = "petrochem-electrolyser",
+		energy_required = 1,
+		enabled = "false",
+		ingredients =
+		{
+			{type="fluid", name="gas-butane", amount=100},
+		},
+		results=
+		{
+			{type="fluid", name="gas-hydrogen", amount=300}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
 		icon_size = 32,
