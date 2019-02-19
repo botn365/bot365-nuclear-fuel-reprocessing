@@ -6,4 +6,5 @@ for i, player in ipairs(game.players) do
 		force.recipes["hydrogen-methane-electrolisis"].enabled = true
 		force.recipes["hydrogen-ethane-electrolisis"].enabled = true
 		force.recipes["hydrogen-butane-electrolisis"].enabled = true
+	end
 end
