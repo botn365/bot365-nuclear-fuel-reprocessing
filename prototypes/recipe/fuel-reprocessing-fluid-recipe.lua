@@ -2,7 +2,7 @@
 data:extend({
 	{
 		type = "recipe",
-		name = "hydrogen-synthesis",
+		name = "hydrogen-methane-synthesis",
 		category = "petrochem-electrolyser",
 		energy_required = 1,
 		enabled = "false",
@@ -49,13 +49,13 @@ data:extend({
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="gas-hydrogen", amount=450},		
-			{type="fluid", name="gas-nitrogen-monoxide", amount=100},
+			{type="fluid", name="gas-hydrogen", amount=150},		
+			{type="fluid", name="gas-nitrogen-monoxide", amount=40},
 			{type="item", name="catalyst-metal-yellow",amount=1}		
 		},
 		results=
 		{
-			{type="fluid", name="hydroxylamine", amount=300},
+			{type="fluid", name="hydroxylamine", amount=100},
 			{type="item", name ="catalyst-metal-carrier", amount=1}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/hydroxylamine.png",
