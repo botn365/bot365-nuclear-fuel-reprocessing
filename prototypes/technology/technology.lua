@@ -18,6 +18,14 @@ data:extend({
         },
         {
             type="unlock-recipe",
+            recipe = "hydrogen-ethane-electrolisis"
+        },
+        {
+            type="unlock-recipe",
+            recipe = "hydrogen-butane-electrolisis"
+        },
+        {
+            type="unlock-recipe",
             recipe = "hydroxylamine-synthesis"
         },
         {
@@ -131,14 +139,6 @@ data:extend({
         {
             type="unlock-recipe",
             recipe = "uranium-tetra-floride-syntesis"
-        },
-        {
-            type="unlock-recipe",
-            recipe = "hydrogen-ethane-electrolisis"
-        },
-        {
-            type="unlock-recipe",
-            recipe = "hydrogen-butane-electrolisis"
         }
     },
     unit = 

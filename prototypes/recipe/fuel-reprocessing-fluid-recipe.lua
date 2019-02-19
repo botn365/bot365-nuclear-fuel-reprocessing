@@ -17,7 +17,7 @@ data:extend({
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
-		order = "bb"
+		order = "da"
 	},
 	{
 		type = "recipe",
@@ -36,7 +36,7 @@ data:extend({
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
-		order = "bb"
+		order = "db"
 	},
 	{
 		type = "recipe",
@@ -55,7 +55,7 @@ data:extend({
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
-		order = "bb"
+		order = "dc"
 	},
 	{
 		type = "recipe",
