@@ -243,7 +243,7 @@ data:extend({
 		ingredients =
 		{
 			{type="fluid", name="liquid-nitric-acid", amount=100},		
-			{type="item", name="uranium-238", amount=8}		
+			{type="item", name="uranium-238", amount=4}		
 		},
 		results=
 		{
