@@ -125,7 +125,7 @@ data:extend({
 		energy_required = 3,
 		ingredients = {
 			{type="fluid", name="gas-chlorine", amount=150},
-			{type="item", name="Phosforhoures", amount=10}
+			{type="item", name="Phosforhoures", amount=2}
 		},
 		results ={
 			{type= "fluid", name="Phosphorus-trichloride", amount=100}
