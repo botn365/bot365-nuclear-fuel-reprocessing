@@ -278,7 +278,7 @@ data:extend({
 		type = "recipe",
 		name = "uranyl-nitrate-recovery",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -298,7 +298,7 @@ data:extend({
 		type = "recipe",
 		name = "tbp-recovery",
 		category = "chemistry",
-		energy_required = 3,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -319,7 +319,7 @@ data:extend({
 		type = "recipe",
 		name = "nitric-acid-recovery",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -339,7 +339,7 @@ data:extend({
 		type = "recipe",
 		name = "nitric-acid-concentration",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -378,7 +378,7 @@ data:extend({
 		type = "recipe",
 		name = "depleted-fuel-melting",
 		category = "chemistry",
-		energy_required = 150,
+		energy_required = 10,
 		enabled = "false",
 		ingredients =
 		{
@@ -398,7 +398,7 @@ data:extend({
 		type = "recipe",
 		name = "depledet-mox-fuel-melting",
 		category = "chemistry",
-		energy_required = 150,
+		energy_required = 50,
 		enabled = "false",
 		ingredients =
 		{
@@ -418,7 +418,7 @@ data:extend({
 		type = "recipe",
 		name = "fps-extraction",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -439,7 +439,7 @@ data:extend({
 		type = "recipe",
 		name = "u-pu-patritioning",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -460,7 +460,7 @@ data:extend({
 		type = "recipe",
 		name = "u-scrubbing",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -481,7 +481,7 @@ data:extend({
 		type = "recipe",
 		name = "u-extraction",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 5.5,
 		enabled = "false",
 		ingredients =
 		{
@@ -502,7 +502,7 @@ data:extend({
 		type = "recipe",
 		name = "pu-oxidation",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 2.75,
 		enabled = "false",
 		ingredients =
 		{
@@ -522,7 +522,7 @@ data:extend({
 		type = "recipe",
 		name = "pu-scrubbing",
 		category = "chemistry",
-		energy_required = 4.5,
+		energy_required = 2.75,
 		enabled = "false",
 		ingredients =
 		{
@@ -543,7 +543,7 @@ data:extend({
 		type = "recipe",
 		name = "u-recovery",
 		category = "chemistry",
-		energy_required = 150,
+		energy_required = 140,
 		enabled = "false",
 		ingredients =
 		{
@@ -563,7 +563,7 @@ data:extend({
 		type = "recipe",
 		name = "pu-recovery",
 		category = "chemistry",
-		energy_required = 150,
+		energy_required = 140,
 		enabled = "false",
 		ingredients =
 		{
