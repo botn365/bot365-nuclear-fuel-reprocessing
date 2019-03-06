@@ -157,7 +157,7 @@ data:extend({
     {
         type ="technology",
         name = "nuclear-rocket-fuel",
-        icon = "__base__/graphics/technology/kovarex-enrichment-process.png",
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/technology/nuclear-fuel-large.png",
         icon_size = 128,
         prerequisites=
         {
