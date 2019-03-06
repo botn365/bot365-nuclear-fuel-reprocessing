@@ -8,7 +8,7 @@ data:extend({
         icon_size = 128,
         prerequisites =
         {
-        "nuclear-power"
+        "nuclear-power","production-science-pack"
         },
         effects =
         {
@@ -161,7 +161,7 @@ data:extend({
         icon_size = 128,
         prerequisites=
         {
-            "nuclear-power"
+            "nuclear-power","production-science-pack","rocket-fuel"
         },
         effects=
         {
