@@ -31,7 +31,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="gas-hydrogen", amount=400}
+			{type="fluid", name="gas-hydrogen", amount=600}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
 		icon_size = 32,
@@ -50,7 +50,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="gas-hydrogen", amount=300}
+			{type="fluid", name="gas-hydrogen", amount=600}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
 		icon_size = 32,
@@ -149,7 +149,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="butanol", amount=50},
+			{type="fluid", name="butanol", amount=80},
 			{type="fluid", name="gas-residual", amount=20},
 			{type="item", name="catalyst-metal-carrier", amount=1}
 		},
@@ -242,8 +242,8 @@ data:extend({
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="liquid-nitric-acid", amount=100},		
-			{type="item", name="uranium-238", amount=4}		
+			{type="fluid", name="liquid-nitric-acid", amount=90},		
+			{type="item", name="uranium-238", amount=3}		
 		},
 		results=
 		{
@@ -278,16 +278,16 @@ data:extend({
 		type = "recipe",
 		name = "uranyl-nitrate-recovery",
 		category = "chemistry",
-		energy_required = 5.5,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="waste-complex", amount=200}
+			{type="fluid", name="waste-complex", amount=100}
 		},
 		results=
 		{
-			{type="fluid", name="uranyl-nitrate", amount=190},
-			{type="fluid", name="waste-nitric-acid", amount=200}
+			{type="fluid", name="uranyl-nitrate", amount=95},
+			{type="fluid", name="waste-nitric-acid", amount=100}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/waste-complex.png",
 		icon_size = 32,
@@ -298,17 +298,17 @@ data:extend({
 		type = "recipe",
 		name = "tbp-recovery",
 		category = "chemistry",
-		energy_required = 5.5,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="waste-tbp", amount=200},
-			{type="fluid", name="liquid-nitric-acid", amount=200},
+			{type="fluid", name="waste-tbp", amount=100},
+			{type="fluid", name="liquid-nitric-acid", amount=100},
 		},
 		results=
 		{
-			{type="fluid", name="tbp", amount=180},
-			{type="fluid", name="waste-nitric-acid", amount=200}
+			{type="fluid", name="tbp", amount=90},
+			{type="fluid", name="waste-nitric-acid", amount=100}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/waste-tbp.png",
 		icon_size = 32,
@@ -319,16 +319,16 @@ data:extend({
 		type = "recipe",
 		name = "nitric-acid-recovery",
 		category = "chemistry",
-		energy_required = 5.5,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="waste-nitric-acid", amount=200},
-			{type="fluid", name="hydroxylamine", amount=40},
+			{type="fluid", name="waste-nitric-acid", amount=100},
+			{type="fluid", name="hydroxylamine", amount=20},
 		},
 		results=
 		{
-			{type="fluid", name="recovered-nitric-acid", amount=200},
+			{type="fluid", name="recovered-nitric-acid", amount=100},
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/recd-hno3.png",
 		icon_size = 32,
@@ -339,16 +339,16 @@ data:extend({
 		type = "recipe",
 		name = "nitric-acid-concentration",
 		category = "chemistry",
-		energy_required = 5.5,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="recovered-nitric-acid", amount=200},
+			{type="fluid", name="recovered-nitric-acid", amount=100},
 		},
 		results=
 		{
-			{type="fluid", name="liquid-nitric-acid", amount=120},
-			{type="fluid", name="water-purified", amount=80}
+			{type="fluid", name="liquid-nitric-acid", amount=60},
+			{type="fluid", name="water-purified", amount=40}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/hno3-concentration-recipe.png",
 		icon_size = 32,
@@ -359,11 +359,11 @@ data:extend({
 		type = "recipe",
 		name = "waste-vitrification",
 		category = "chemistry",
-		energy_required = 20,
+		energy_required = 13.4,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="waste", amount=200}, -- add glass
+			{type="fluid", name="waste", amount=100}, -- add glass
 		},
 		results=
 		{
@@ -378,16 +378,16 @@ data:extend({
 		type = "recipe",
 		name = "depleted-fuel-melting",
 		category = "chemistry",
-		energy_required = 10,
+		energy_required = 6.7,
 		enabled = "false",
 		ingredients =
 		{
 			{type="item", name="used-up-uranium-fuel-cell", amount=1},		
-			{type="fluid", name="liquid-nitric-acid", amount=500}		
+			{type="fluid", name="liquid-nitric-acid", amount=250}		
 		},
 		results=
 		{
-			{type="fluid", name="liquid-spent-fuel", amount=500},
+			{type="fluid", name="liquid-spent-fuel", amount=250},
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/uranium-fuel-cell-melt.png",
 		icon_size = 32,
@@ -398,16 +398,16 @@ data:extend({
 		type = "recipe",
 		name = "depledet-mox-fuel-melting",
 		category = "chemistry",
-		energy_required = 50,
+		energy_required = 33,
 		enabled = "false",
 		ingredients =
 		{
 			{type="item", name="depleted-mox-fuel-cell", amount=1},		
-			{type="fluid", name="liquid-nitric-acid", amount=5700}		
+			{type="fluid", name="liquid-nitric-acid", amount=2850}		
 		},
 		results=
 		{
-			{type="fluid", name="liquid-spent-fuel", amount=5700},
+			{type="fluid", name="liquid-spent-fuel", amount=2850},
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/dep-mox-fuel-cell-melt.png",
 		icon_size = 32,
@@ -418,17 +418,17 @@ data:extend({
 		type = "recipe",
 		name = "fps-extraction",
 		category = "chemistry",
-		energy_required = 5.5,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="liquid-spent-fuel", amount=200},
-			{type="fluid", name="tbp", amount=200}
+			{type="fluid", name="liquid-spent-fuel", amount=100},
+			{type="fluid", name="tbp", amount=100}
 		},
 		results=
 		{
-			{type="fluid", name="primary-stream", amount=200},
-			{type="fluid", name="waste-nitric-acid", amount=200}
+			{type="fluid", name="primary-stream", amount=100},
+			{type="fluid", name="waste-nitric-acid", amount=100}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/primary-stream.png",
 		icon_size = 32,
@@ -439,17 +439,17 @@ data:extend({
 		type = "recipe",
 		name = "u-pu-patritioning",
 		category = "chemistry",
-		energy_required = 5.5,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="primary-stream", amount=200},		
-			{type="fluid", name="pu-reductant", amount=200}		
+			{type="fluid", name="primary-stream", amount=100},		
+			{type="fluid", name="pu-reductant", amount=100}		
 		},
 		results=
 		{
-			{type="fluid", name="u-tbp", amount=200},
-			{type="fluid", name="pu-aqueous", amount=200}
+			{type="fluid", name="u-tbp", amount=100},
+			{type="fluid", name="pu-aqueous", amount=100}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/u-pu-partitioning.png",
 		icon_size = 32,
@@ -460,17 +460,17 @@ data:extend({
 		type = "recipe",
 		name = "u-scrubbing",
 		category = "chemistry",
-		energy_required = 5.5,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="liquid-nitric-acid", amount=40},
-			{type="fluid", name="u-tbp", amount=200}
+			{type="fluid", name="liquid-nitric-acid", amount=20},
+			{type="fluid", name="u-tbp", amount=100}
 		},
 		results=
 		{
-			{type="fluid", name="u-tbp-aqueous", amount=200},
-			{type="fluid", name="waste-nitric-acid", amount=40}
+			{type="fluid", name="u-tbp-aqueous", amount=100},
+			{type="fluid", name="waste-nitric-acid", amount=20}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/u-tbp-aq.png",
 		icon_size = 32,
@@ -485,13 +485,13 @@ data:extend({
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="dilute-nitric-acid", amount=80},
-			{type="fluid", name="u-tbp-aqueous", amount=200}
+			{type="fluid", name="dilute-nitric-acid", amount=40},
+			{type="fluid", name="u-tbp-aqueous", amount=100}
 		},
 		results=
 		{
-			{type="fluid", name="waste-tbp", amount=200},
-			{type="fluid", name="u-aqueous", amount=80}
+			{type="fluid", name="waste-tbp", amount=100},
+			{type="fluid", name="u-aqueous", amount=40}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/u-aq.png",
 		icon_size = 32,
@@ -502,7 +502,7 @@ data:extend({
 		type = "recipe",
 		name = "pu-oxidation",
 		category = "chemistry",
-		energy_required = 2.75,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
@@ -511,7 +511,7 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="pu(iv)-aqueous", amount=200}
+			{type="fluid", name="pu(iv)-aqueous", amount=100}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/pu-iv-aq.png",
 		icon_size = 32,
@@ -522,11 +522,11 @@ data:extend({
 		type = "recipe",
 		name = "pu-scrubbing",
 		category = "chemistry",
-		energy_required = 2.75,
+		energy_required = 3.7,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="pu(iv)-aqueous", amount=200},		
+			{type="fluid", name="pu(iv)-aqueous", amount=100},		
 			{type="fluid", name="tbp", amount=100}		
 		},
 		results=
@@ -543,11 +543,11 @@ data:extend({
 		type = "recipe",
 		name = "u-recovery",
 		category = "chemistry",
-		energy_required = 140,
+		energy_required = 90,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="u-aqueous", amount=1000}
+			{type="fluid", name="u-aqueous", amount=500}
 		},
 		results=
 		{
@@ -563,17 +563,17 @@ data:extend({
 		type = "recipe",
 		name = "pu-recovery",
 		category = "chemistry",
-		energy_required = 140,
+		energy_required = 90,
 		enabled = "false",
 		ingredients =
 		{
-			{type="fluid", name="hydroxylamine", amount=1000},
-			{type="fluid", name="pu(iv)-tbp", amount=2500}
+			{type="fluid", name="hydroxylamine", amount=500},
+			{type="fluid", name="pu(iv)-tbp", amount=1250}
 		},
 		results=
 		{
 			{type="item", name="plutonium-dioxide", amount=1},
-			{type="fluid", name="waste-tbp", amount=2500}
+			{type="fluid", name="waste-tbp", amount=1250}
 		},
 		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/puo2.png",
 		icon_size = 32,
