@@ -188,3 +188,6 @@ data:extend({
         order = "c - a"
     }
 })
+table.insert(
+    data.raw["technology"]["atomic-bomb"].effects, 
+    {type = "unlock-recipe", recipe = "plutonium-atomic-bomb"})

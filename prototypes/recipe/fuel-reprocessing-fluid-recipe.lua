@@ -682,5 +682,25 @@ data:extend({
 		icon_size=32,
 		order="h"
 
+	},
+	{
+		type="recipe",
+		name="plutonium-atomic-bomb",
+		energy_required=50,
+		enabled="false",
+		ingredients=
+		{
+			{type="item",name="explosives",amount=10},
+			{type="item",name="plutonium-dioxide",amount=10},
+			{type="item",name="rocket-control-unit",amount=10}
+
+		},
+		results=
+		{
+			{type="item",name="atomic-bomb",amount=1}
+		},
+		icon="__base__/graphics/icons/atomic-bomb.png",
+		icon_size=32,
+		order="h"	
 	}
 })
