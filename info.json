@@ -1,7 +1,7 @@
 
 {
     "name": "bot365-nuclear-fuel-reprocessing",
-    "version": "0.2.1",
+    "version": "0.3.1",
     "title": "bots nuclear fuel reprocessing",
     "author": "bot_365",
     "contact": "",
@@ -11,5 +11,5 @@
 	"base >= 0.15",
 	"angelspetrochem >= 0.8.1"
 ],
-    "description": "ads a more realistic way of reprocesing nuclear watse"
+    "description": "ads a more realistic way of reprocesing nuclear waste"
 }
