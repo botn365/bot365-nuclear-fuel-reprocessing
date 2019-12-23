@@ -133,7 +133,7 @@ data:extend({
 	},
 	{
         type = "fluid",
-        name = "high-concentrate-Pa-solution",
+        name = "high-concentrate-Pa-bismuth",
         subgroup = "thorium-chain",
 	    default_temperature = 25,
 		heat_capacity = "1KJ",
@@ -150,7 +150,7 @@ data:extend({
 	},
 	{
         type = "fluid",
-        name = "low-concentrate-Pa-solution",
+        name = "low-concentrate-Pa-bismuth",
         subgroup = "thorium-chain",
 	    default_temperature = 25,
 		heat_capacity = "1KJ",
@@ -269,7 +269,7 @@ data:extend({
 	},
 	{
         type = "fluid",
-        name = "bismuth-waste",
+        name = "waste-bismuth",
         subgroup = "thorium-chain",
 	    default_temperature = 25,
 		heat_capacity = "1KJ",
@@ -296,6 +296,40 @@ data:extend({
 	    flow_color = {r=0.60, g=0.39, b=0.29},
 	    max_temperature = 100,
         icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/thorium_process/Ammonium-bifluoride.png",
+        icon_size = 32,
+	    pressure_to_speed_ratio = 0.4,
+	    flow_to_energy_ratio = 0.59,
+	    order = ""
+	},
+	{
+        type = "fluid",
+        name = "low-Pa-salt",
+        subgroup = "thorium-chain",
+	    default_temperature = 25,
+		heat_capacity = "1KJ",
+		--172, 173, 144
+		--154, 100, 76
+	    base_color = {r=0.67, g=0.68, b=0.56},
+	    flow_color = {r=0.60, g=0.39, b=0.29},
+	    max_temperature = 100,
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/thorium_process/low-Pa-salt.png",
+        icon_size = 32,
+	    pressure_to_speed_ratio = 0.4,
+	    flow_to_energy_ratio = 0.59,
+	    order = ""
+	},
+	{
+        type = "fluid",
+        name = "u233-hexa-fluoride",
+        subgroup = "thorium-chain",
+	    default_temperature = 25,
+		heat_capacity = "1KJ",
+		--172, 173, 144
+		--154, 100, 76
+	    base_color = {r=0.67, g=0.68, b=0.56},
+	    flow_color = {r=0.60, g=0.39, b=0.29},
+	    max_temperature = 100,
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/thorium_process/uranium-hexa-fluoride.png",
         icon_size = 32,
 	    pressure_to_speed_ratio = 0.4,
 	    flow_to_energy_ratio = 0.59,

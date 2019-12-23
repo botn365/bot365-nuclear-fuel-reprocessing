@@ -8,8 +8,9 @@
     "homepage": "https://mods.factorio.com/mod/bot365-nuclear-fuel-reprocessing",
     "factorio_version": "0.17",
     "dependencies": [
-	"base >= 0.15",
-	"angelspetrochem >= 0.8.1"
+	"base >= 0.17",
+    "angelspetrochem >= 0.8.1",
+    "angelssmelting >= 0.5.7"
 ],
     "description": "ads a more realistic way of reprocesing nuclear waste"
 }

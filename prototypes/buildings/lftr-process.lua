@@ -162,47 +162,27 @@ data:extend(
         }
     },
     {
-        type = "item",
-        name = "liquid-reactor",
-        icon = "__base__/graphics/icons/nuclear-reactor.png",
-        icon_size = 32,
-        subgroup = "energy",
-        order = "f[nuclear-energy]-a[reactor-2]",
-        place_result = "liquid-reactor",
-        stack_size = 10
-    },
-    util.merge{data.raw.reactor["nuclear-reactor"],
-        {
-            name = "liquid-reactor",
-
-            energy_source = 
-            {
-                type = "fluid",
-                usage_priority = "secondary-input",
-                emissions = 0,
-                fluid_box = 
-                {
-                        pipe_covers = pipecoverspictures(),
-                        base_area = 10,
-                        base_level = -1,
-                        pipe_connections = 
-                        {
-                            { type = "input", position = {2, 3} },
-                            { type = "output", position = {-2, 3} }
-                        },
-                        burns_fluid = true,
-                        scale_fluid_usage = true,
-                        filter = "input-burn"
-                }
-            },
-            energy_usage = "100kW",
-            ingredient_count = 1,
-
-            pipe_covers = pipecoverspictures()
+        type = "recipe",
+		name = "decay-tank",
+		energy_required = 2.5,
+		enabled = "false",
+		ingredients =
+		{
+            {type="fluid", name = "protactinium-salt", amount = 25000},
+            {type="item", name = "wire-copper", amount = 100},
+            {type="item", name = "lead-plate", amount = 500},
+            {type="item", name = "pump", amount = 2}
             
-        }
-    }
-        
+		},
+		results=
+		{
+			{type="item", name = "decay-tank", amount = 1}
+		},
+		icon = "__base__/graphics/icons/storage-tank.png",
+		icon_size = 32,
+		subgroup = "uranium-fuel-reprocessing-fluids",
+		order = ""
+	}       
 })
 
             

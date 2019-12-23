@@ -128,7 +128,7 @@ data:extend({
         type ="item",
         name ="fluorosilicate-salt",
         subgroup = "thorium-chain",
-        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/place-holders/items/Na2SiF6.png",
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/items/fluorosilicate-salt.png",
         icon_size = 32,
         stack_size = 200,
         order = "a" 
@@ -137,7 +137,7 @@ data:extend({
         type ="item",
         name ="sodium-fluoroberyllate",
         subgroup = "thorium-chain",
-        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/place-holders/items/NaFBe-placeholeder.png",
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/items/sodium-fluoroberyllate.png",
         icon_size = 32,
         stack_size = 200,
         order = "a" 
@@ -146,7 +146,7 @@ data:extend({
         type ="item",
         name ="beryllium-hydroxide",
         subgroup = "thorium-chain",
-        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/place-holders/items/BeHO-placeholeder.png",
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/items/beryllium-hydroxide.png",
         icon_size = 32,
         stack_size = 200,
         order = "a" 
@@ -155,7 +155,7 @@ data:extend({
         type ="item",
         name ="lithium-carbonate",
         subgroup = "thorium-chain",
-        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/place-holders/items/Li2CO3-placeholeder.png",
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/items/lithium-carbonate.png",
         icon_size = 32,
         stack_size = 200,
         order = "a" 
