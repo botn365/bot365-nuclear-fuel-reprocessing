@@ -23,5 +23,11 @@ data:extend(
 		name = "uranium-fuel-reprocessing-fluids", --UF6 stuff
 		group = "uranium",
 		order = "ec",
+	},
+	{
+		type = "item-subgroup",
+		name = "thorium-chain", --lftr stuff
+		group = "uranium",
+		order = "ec",	
 	}
 })

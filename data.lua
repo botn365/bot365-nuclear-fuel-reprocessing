@@ -3,8 +3,9 @@
 require("prototypes.categories.group")
 require("prototypes.categories.intermediate")
 
-require("prototypes.fluid.fuel-reprocessing-fluid")
-require("prototypes.fluid.fluid")
+require("prototypes.fluid.uranium-process")
+require("prototypes.fluid.thorium-process")
+require("prototypes.buildings.lftr-process")
 
 require("prototypes.item")
 

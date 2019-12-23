@@ -1,62 +1,62 @@
 
 data:extend({
-	{
-		type = "recipe",
-		name = "hydrogen-methane-electrolisis",
-		category = "petrochem-electrolyser",
-		energy_required = 1,
-		enabled = "false",
-		ingredients =
-		{
-			{type="fluid", name="gas-methane", amount=100},
-		},
-		results=
-		{
-			{type="fluid", name="gas-hydrogen", amount=600}
-		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
-		icon_size = 32,
-		subgroup = "uranium-fuel-reprocessing-fluids",
-		order = "da"
-	},
-	{
-		type = "recipe",
-		name = "hydrogen-ethane-electrolisis",
-		category = "petrochem-electrolyser",
-		energy_required = 1,
-		enabled = "false",
-		ingredients =
-		{
-			{type="fluid", name="gas-ethane", amount=100},
-		},
-		results=
-		{
-			{type="fluid", name="gas-hydrogen", amount=600}
-		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
-		icon_size = 32,
-		subgroup = "uranium-fuel-reprocessing-fluids",
-		order = "db"
-	},
-	{
-		type = "recipe",
-		name = "hydrogen-butane-electrolisis",
-		category = "petrochem-electrolyser",
-		energy_required = 1,
-		enabled = "false",
-		ingredients =
-		{
-			{type="fluid", name="gas-butane", amount=100},
-		},
-		results=
-		{
-			{type="fluid", name="gas-hydrogen", amount=600}
-		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
-		icon_size = 32,
-		subgroup = "uranium-fuel-reprocessing-fluids",
-		order = "dc"
-	},
+	-- {
+	-- 	type = "recipe",
+	-- 	name = "hydrogen-methane-electrolisis",
+	-- 	category = "petrochem-electrolyser",
+	-- 	energy_required = 1,
+	-- 	enabled = "false",
+	-- 	ingredients =
+	-- 	{
+	-- 		{type="fluid", name="gas-methane", amount=100},
+	-- 	},
+	-- 	results=
+	-- 	{
+	-- 		{type="fluid", name="gas-hydrogen", amount=600}
+	-- 	},
+	-- 	icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
+	-- 	icon_size = 32,
+	-- 	subgroup = "uranium-fuel-reprocessing-fluids",
+	-- 	order = "da"
+	-- },
+	-- {
+	-- 	type = "recipe",
+	-- 	name = "hydrogen-ethane-electrolisis",
+	-- 	category = "petrochem-electrolyser",
+	-- 	energy_required = 1,
+	-- 	enabled = "false",
+	-- 	ingredients =
+	-- 	{
+	-- 		{type="fluid", name="gas-ethane", amount=100},
+	-- 	},
+	-- 	results=
+	-- 	{
+	-- 		{type="fluid", name="gas-hydrogen", amount=600}
+	-- 	},
+	-- 	icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
+	-- 	icon_size = 32,
+	-- 	subgroup = "uranium-fuel-reprocessing-fluids",
+	-- 	order = "db"
+	-- },
+	-- {
+	-- 	type = "recipe",
+	-- 	name = "hydrogen-butane-electrolisis",
+	-- 	category = "petrochem-electrolyser",
+	-- 	energy_required = 1,
+	-- 	enabled = "false",
+	-- 	ingredients =
+	-- 	{
+	-- 		{type="fluid", name="gas-butane", amount=100},
+	-- 	},
+	-- 	results=
+	-- 	{
+	-- 		{type="fluid", name="gas-hydrogen", amount=600}
+	-- 	},
+	-- 	icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/h2-gas.png",
+	-- 	icon_size = 32,
+	-- 	subgroup = "uranium-fuel-reprocessing-fluids",
+	-- 	order = "dc"
+	-- },
 	{
 		type = "recipe",
 		name = "hydroxylamine-synthesis",
@@ -73,7 +73,7 @@ data:extend({
 			{type="fluid", name="hydroxylamine", amount=100},
 			{type="fluid", name="water-purified", amount=200}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/hydroxylamine.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/hydroxylamine.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "bc"
@@ -95,7 +95,7 @@ data:extend({
 			{type="fluid", name="hydroxylamine", amount=100},
 			{type="item", name ="catalyst-metal-carrier", amount=1}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/hydroxylamine.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/hydroxylamine.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "bc"
@@ -112,7 +112,7 @@ data:extend({
 		results={
 			{type="item", name="Phosforhoures",amount=1}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/phousphourus.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/phousphourus.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order= "bd"
@@ -130,7 +130,7 @@ data:extend({
 		results ={
 			{type= "fluid", name="Phosphorus-trichloride", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/Phosphorus-trichloride.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/Phosphorus-trichloride.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order= "be"
@@ -153,7 +153,7 @@ data:extend({
 			{type="fluid", name="gas-residual", amount=20},
 			{type="item", name="catalyst-metal-carrier", amount=1}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/butanol.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/butanol.png",
 		icon_size = 32,
 		order = "bf",
 	},
@@ -171,7 +171,7 @@ data:extend({
 			{type= "fluid", name="Tributyl-phosphate", amount=100},
 			{type="fluid",name="gas-hydrogen-chloride",amount=150}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/tbp.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/tbp.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order= "bg"
@@ -189,7 +189,7 @@ data:extend({
 		results={
 			{type= "fluid", name="Phosphoryl-chloride", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/Phosphoryl-chloride.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/Phosphoryl-chloride.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order= "bh"
@@ -207,9 +207,9 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="tbp", amount=150}
+			{type="fluid", name="tbp-fuel-mix", amount=150}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/tbp.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/tbp.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "bi"
@@ -229,7 +229,7 @@ data:extend({
 		{
 			{type="fluid", name="dilute-nitric-acid", amount=600}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/dilute-hno3.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/dilute-hno3.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "ca"
@@ -249,7 +249,7 @@ data:extend({
 		{
 			{type="fluid", name="uranyl-nitrate", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/uranylnitrate.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/uranylnitrate.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "cb"
@@ -269,7 +269,7 @@ data:extend({
 		{
 			{type="fluid", name="pu-reductant", amount=200}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/pu-reductant.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/pu-reductant.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "cc"
@@ -289,7 +289,7 @@ data:extend({
 			{type="fluid", name="uranyl-nitrate", amount=95},
 			{type="fluid", name="waste-nitric-acid", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/waste-complex.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/waste-complex.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "cd"
@@ -307,10 +307,10 @@ data:extend({
 		},
 		results=
 		{
-			{type="fluid", name="tbp", amount=90},
+			{type="fluid", name="tbp-fuel-mix", amount=90},
 			{type="fluid", name="waste-nitric-acid", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/waste-tbp.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/waste-tbp.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "cf"
@@ -330,7 +330,7 @@ data:extend({
 		{
 			{type="fluid", name="recovered-nitric-acid", amount=100},
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/recd-hno3.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/recd-hno3.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "cg"
@@ -350,7 +350,7 @@ data:extend({
 			{type="fluid", name="liquid-nitric-acid", amount=60},
 			{type="fluid", name="water-purified", amount=40}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/hno3-concentration-recipe.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/hno3-concentration-recipe.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "ch"
@@ -369,7 +369,7 @@ data:extend({
 		{
 			{type="item", name="waste-glass", amount=1}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/waste-glass.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/waste-glass.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing-fluids",
 		order = "ci"
@@ -389,7 +389,7 @@ data:extend({
 		{
 			{type="fluid", name="liquid-spent-fuel", amount=250},
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/uranium-fuel-cell-melt.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/uranium-fuel-cell-melt.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-dissolution",
 		order = "g"
@@ -409,7 +409,7 @@ data:extend({
 		{
 			{type="fluid", name="liquid-spent-fuel", amount=2850},
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/dep-mox-fuel-cell-melt.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/dep-mox-fuel-cell-melt.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-dissolution",
 		order = "h"
@@ -423,14 +423,14 @@ data:extend({
 		ingredients =
 		{
 			{type="fluid", name="liquid-spent-fuel", amount=100},
-			{type="fluid", name="tbp", amount=100}
+			{type="fluid", name="tbp-fuel-mix", amount=100}
 		},
 		results=
 		{
 			{type="fluid", name="primary-stream", amount=100},
 			{type="fluid", name="waste-nitric-acid", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/primary-stream.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/primary-stream.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "a"
@@ -451,7 +451,7 @@ data:extend({
 			{type="fluid", name="u-tbp", amount=100},
 			{type="fluid", name="pu-aqueous", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/u-pu-partitioning.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/u-pu-partitioning.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "b"
@@ -472,7 +472,7 @@ data:extend({
 			{type="fluid", name="u-tbp-aqueous", amount=100},
 			{type="fluid", name="waste-nitric-acid", amount=20}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/u-tbp-aq.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/u-tbp-aq.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "c"
@@ -493,7 +493,7 @@ data:extend({
 			{type="fluid", name="waste-tbp", amount=100},
 			{type="fluid", name="u-aqueous", amount=40}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/u-aq.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/u-aq.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "d"
@@ -513,7 +513,7 @@ data:extend({
 		{
 			{type="fluid", name="pu(iv)-aqueous", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/pu-iv-aq.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/pu-iv-aq.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "e"
@@ -527,14 +527,14 @@ data:extend({
 		ingredients =
 		{
 			{type="fluid", name="pu(iv)-aqueous", amount=100},		
-			{type="fluid", name="tbp", amount=100}		
+			{type="fluid", name="tbp-fuel-mix", amount=100}		
 		},
 		results=
 		{
 			{type="fluid", name="pu(iv)-tbp", amount=100},
 			{type="fluid", name="waste-complex", amount=100}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/recycling-assets/pu-iv-tbp.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/recycling-assets/pu-iv-tbp.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "f"
@@ -554,7 +554,7 @@ data:extend({
 			{type="fluid", name="water-purified", amount=125},
 			{type="item", name="uranium-dioxide", amount=1}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/uo2.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/uo2.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "g"
@@ -575,7 +575,7 @@ data:extend({
 			{type="item", name="plutonium-dioxide", amount=1},
 			{type="fluid", name="waste-tbp", amount=1250}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/puo2.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/puo2.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "h"
@@ -595,7 +595,7 @@ data:extend({
 		{
 			{type="item", name="uranium-17", amount=61}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/U1.7%.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/U1.7%.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "h"
@@ -615,7 +615,7 @@ data:extend({
 		{
 			{type="item", name="mox-fuel-cell",amount=1}
 		},
-		icon = "__bot365-nuclear-fuel-reprocessing__/graphics/icons/mox-fuel-cell.png",
+		icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/mox-fuel-cell.png",
 		icon_size = 32,
 		subgroup = "uranium-fuel-reprocessing",
 		order = "h"
@@ -635,7 +635,7 @@ data:extend({
 		{
 			{type="fluid",name="uranium-tetra-fluride",amount=100}
 		},
-		icon="__bot365-nuclear-fuel-reprocessing__/graphics/icons/uranium-tetra-fluride.png",
+		icon="__bot365-nuclear-fuel-reprocessing__/graphics_old/icons/uranium-tetra-fluride.png",
 		icon_size=32,
 		subgroup = "uranium-fuel-reprocessing",
 		order="h"

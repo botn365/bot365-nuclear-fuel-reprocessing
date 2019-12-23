@@ -1,7 +1,7 @@
 data:extend({
 	{
 		type = "fluid",
-		name = "tbp",
+		name = "tbp-fuel-mix",
 		subgroup = "uranium-prefluids",
 		default_temperature = 25,
 		heat_capacity = "1KJ",

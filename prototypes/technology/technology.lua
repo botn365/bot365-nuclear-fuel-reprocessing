@@ -12,18 +12,18 @@ data:extend({
         },
         effects =
         {
-        {
-            type="unlock-recipe",
-            recipe = "hydrogen-methane-electrolisis"
-        },
-        {
-            type="unlock-recipe",
-            recipe = "hydrogen-ethane-electrolisis"
-        },
-        {
-            type="unlock-recipe",
-            recipe = "hydrogen-butane-electrolisis"
-        },
+        -- {
+        --     type="unlock-recipe",
+        --     recipe = "hydrogen-methane-electrolisis"
+        -- },
+        -- {
+        --     type="unlock-recipe",
+        --     recipe = "hydrogen-ethane-electrolisis"
+        -- },
+        -- {
+        --     type="unlock-recipe",
+        --     recipe = "hydrogen-butane-electrolisis"
+        -- },
         {
             type="unlock-recipe",
             recipe = "hydroxylamine-synthesis"
@@ -139,6 +139,14 @@ data:extend({
         {
             type="unlock-recipe",
             recipe = "uranium-tetra-floride-syntesis"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "build-decay-tank"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "build-liquid-reactor"
         }
     },
     unit = 
@@ -157,7 +165,7 @@ data:extend({
     {
         type ="technology",
         name = "nuclear-rocket-fuel",
-        icon = "__bot365-nuclear-fuel-reprocessing__/graphics/technology/nuclear-fuel-large.png",
+        icon = "__bot365-nuclear-fuel-reprocessing__/graphics_old/technology/nuclear-fuel-large.png",
         icon_size = 128,
         prerequisites=
         {
