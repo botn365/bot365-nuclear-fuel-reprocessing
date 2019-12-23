@@ -10,6 +10,7 @@ require("prototypes.buildings.lftr-process")
 require("prototypes.item")
 
 require("prototypes.recipe.fuel-reprocessing-fluid-recipe")
+require("prototypes.recipe.LFTR")
 
 require("prototypes.technology.technology")
 

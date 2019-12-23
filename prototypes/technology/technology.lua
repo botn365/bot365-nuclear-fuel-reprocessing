@@ -139,14 +139,6 @@ data:extend({
         {
             type="unlock-recipe",
             recipe = "uranium-tetra-floride-syntesis"
-        },
-        {
-            type = "unlock-recipe",
-            recipe = "build-decay-tank"
-        },
-        {
-            type = "unlock-recipe",
-            recipe = "build-liquid-reactor"
         }
     },
     unit = 

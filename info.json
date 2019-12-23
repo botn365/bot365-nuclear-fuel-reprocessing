@@ -10,7 +10,9 @@
     "dependencies": [
 	"base >= 0.17",
     "angelspetrochem >= 0.8.1",
-    "angelssmelting >= 0.5.7"
+    "angelssmelting >= 0.5.7",
+    "bobplates >= 0.17.13",
+    "bobores >= 0.17.5"
 ],
     "description": "ads a more realistic way of reprocesing nuclear waste"
 }

@@ -165,11 +165,12 @@ data:extend(
         type = "recipe",
 		name = "decay-tank",
 		energy_required = 2.5,
-		enabled = "false",
+        enabled = "false",
+        category = "crafting-with-fluid",
 		ingredients =
 		{
             {type="fluid", name = "protactinium-salt", amount = 25000},
-            {type="item", name = "wire-copper", amount = 100},
+            {type="item", name = "copper-cable", amount = 100},
             {type="item", name = "lead-plate", amount = 500},
             {type="item", name = "pump", amount = 2}
             
